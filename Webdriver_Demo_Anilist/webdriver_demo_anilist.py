@@ -1,3 +1,11 @@
+#################################
+#      Created by Noël B.       #
+#    in preparation for the     #
+#     1 year of internship      #
+#           09.06.2020          #
+#################################
+
+
 import readnames as ReadNames
 import driverconnection as DC
 

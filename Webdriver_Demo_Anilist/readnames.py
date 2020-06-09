@@ -7,6 +7,11 @@ import time
 from driverconnection import driver as Driver
 
 
+def saveHTML():
+    with open("Prakt.-Vorbereitung/Webdriver_Demo_Anilist/HTML_Sources/page_source.html", "w") as f:
+        f.write(Driver.page_source)
+
+
 # Scrollt zum Ende der Seite zwischen 5 und 12 mal
 def scrollDownRandomly():
     ran = round(random.uniform(5, 12))
