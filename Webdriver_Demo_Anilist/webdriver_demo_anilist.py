@@ -7,7 +7,7 @@
 
 
 import readnames as ReadNames
-import driverconnection as DC
+import driverconnection_al as DC
 
 
 def startProcedure():
