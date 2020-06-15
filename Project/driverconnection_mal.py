@@ -9,4 +9,4 @@ def connectToMyAnimelist():
 
 def saveHTML(name):
     with open("Prakt.-Vorbereitung/project/html_sources/page_source_{}.html".format(name), "w") as f:
-        f.write(Driver.page_source)
+        f.write(driver.page_source)

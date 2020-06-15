@@ -15,5 +15,4 @@ import driverconnection_mal as DC
 import crawler as Crawler
 
 DC.connectToMyAnimelist()
-
 Crawler.getNamesInOrder()
